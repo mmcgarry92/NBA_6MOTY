@@ -7,11 +7,9 @@ Created on Thu Feb  2 11:34:03 2023
 
 from urllib.request import urlopen
 from bs4 import BeautifulSoup as bs
-from bs4 import Comment
 import pandas as pd
 import numpy as np
 from matplotlib import pyplot as plt
-import seaborn as sns
 from datetime import date
 import streamlit as st
 
