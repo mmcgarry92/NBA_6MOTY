@@ -193,7 +193,7 @@ with header:
     
     #Ask User for inputted Games Started %
     gc_pct = st.slider("Please set the percentage of games started threshold:",
-                       0,100,5)
+                       0,100,50)
     max_games_played = total_df['MP'].max()
     
     elig_df = total_df.loc[(total_df['GS_PCT']<=gc_pct) &
