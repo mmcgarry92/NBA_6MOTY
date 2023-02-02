@@ -1,0 +1,6 @@
+urllib
+bs4
+pandas
+numpy
+matplotlib
+datetime
